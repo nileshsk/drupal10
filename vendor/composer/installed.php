@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c216a9e3ac3838e6ea04d48d0926ae8d6896786e',
+        'reference' => 'ec9167c75c099cb3f905c61840ff9d62af5ac49b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c216a9e3ac3838e6ea04d48d0926ae8d6896786e',
+            'reference' => 'ec9167c75c099cb3f905c61840ff9d62af5ac49b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -234,6 +234,24 @@
             'replaced' => array(
                 0 => '10.0.0',
             ),
+        ),
+        'drupal/jsonapi_hypermedia' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'reference' => '8.x-1.9',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../drupal/jsonapi_hypermedia',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/jsonapi_include' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'reference' => '8.x-1.6',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../drupal/jsonapi_include',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'egulias/email-validator' => array(
             'pretty_version' => '3.2.5',

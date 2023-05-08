@@ -1,13 +1,60 @@
 {
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "asset": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
     "require": {
         "drupal/core-recommended": "10.0.0",
         "drupal/core-composer-scaffold": "10.0.0",
-        "drupal/core-project-message": "10.0.0"
+        "drupal/core-project-message": "10.0.0",
+        "drupal/jsonapi_include": "^1.6",
+        "drupal/jsonapi_hypermedia": "^1.9"
     },
     "config": {
         "allow-plugins": {
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true
+        }
+    },
+    "extra": {
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "installer-paths": {
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/{$name}": [
+                "type:drupal-drush"
+            ],
+            "modules/hni-shared/{$name}": [
+                "type:hni-shared-module"
+            ],
+            "libraries/{$name}": [
+                "swagger-api/swagger-ui",
+                "type:drupal-library"
+            ]
         }
     }
 }
