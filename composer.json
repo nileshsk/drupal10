@@ -14,12 +14,15 @@
         "drupal/core-composer-scaffold": "10.0.0",
         "drupal/core-project-message": "10.0.0",
         "drupal/jsonapi_include": "^1.6",
-        "drupal/jsonapi_hypermedia": "^1.9"
+        "drupal/jsonapi_hypermedia": "^1.9",
+        "mglaman/composer-drupal-lenient": "^1.0",
+        "drupal/popup_message": "^2.0"
     },
     "config": {
         "allow-plugins": {
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true
+            "drupal/core-project-message": true,
+            "mglaman/composer-drupal-lenient": true
         }
     },
     "extra": {
@@ -36,13 +39,13 @@
                 "type:bower-asset",
                 "type:npm-asset"
             ],
-            "modules/contrib/{$name}": [
+            "docroot/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "profiles/contrib/{$name}": [
+            "docroot/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "themes/contrib/{$name}": [
+            "docroot/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
             "drush/Commands/{$name}": [
@@ -54,6 +57,11 @@
             "libraries/{$name}": [
                 "swagger-api/swagger-ui",
                 "type:drupal-library"
+            ]
+        },
+        "drupal-lenient": {
+            "allowed-list": [
+                "drupal/popup_message"
             ]
         }
     }

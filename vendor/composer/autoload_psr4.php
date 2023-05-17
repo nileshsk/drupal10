@@ -51,5 +51,6 @@ return array(
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib/Doctrine/Common/Lexer'),
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib/Doctrine/Common/Annotations'),
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
+    'ComposerDrupalLenient\\' => array($vendorDir . '/mglaman/composer-drupal-lenient/src'),
     'Asm89\\Stack\\' => array($vendorDir . '/asm89/stack-cors/src'),
 );

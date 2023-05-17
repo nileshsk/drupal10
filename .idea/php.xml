@@ -55,6 +55,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/drupal/jsonapi_include" />
+      <path value="$PROJECT_DIR$/vendor/drupal/jsonapi_hypermedia" />
+      <path value="$PROJECT_DIR$/vendor/mglaman/composer-drupal-lenient" />
     </include_path>
   </component>
 </project>

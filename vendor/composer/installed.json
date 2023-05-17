@@ -761,6 +761,98 @@
             "install-path": "../drupal/jsonapi_include"
         },
         {
+            "name": "drupal/popup_message",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/popup_message.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/popup_message-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "4aee42d5fea0444f226da1dc28e400f10f63983b"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1635400384",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Maciej Lukianski",
+                    "homepage": "https://www.drupal.org/user/400060"
+                },
+                {
+                    "name": "Pawelgorski87",
+                    "homepage": "https://www.drupal.org/user/3139083"
+                },
+                {
+                    "name": "UsingSession",
+                    "homepage": "https://www.drupal.org/user/3582050"
+                },
+                {
+                    "name": "adrianliegmann",
+                    "homepage": "https://www.drupal.org/user/2750277"
+                },
+                {
+                    "name": "goswierk",
+                    "homepage": "https://www.drupal.org/user/3598034"
+                },
+                {
+                    "name": "gpietrzak",
+                    "homepage": "https://www.drupal.org/user/427946"
+                },
+                {
+                    "name": "grzegorz.bartman",
+                    "homepage": "https://www.drupal.org/user/363120"
+                },
+                {
+                    "name": "jaro.2801",
+                    "homepage": "https://www.drupal.org/user/1572856"
+                },
+                {
+                    "name": "sayco",
+                    "homepage": "https://www.drupal.org/user/3517832"
+                },
+                {
+                    "name": "sygnetica",
+                    "homepage": "https://www.drupal.org/user/1726244"
+                },
+                {
+                    "name": "vindi",
+                    "homepage": "https://www.drupal.org/user/2668815"
+                },
+                {
+                    "name": "volodymyr.umanets",
+                    "homepage": "https://www.drupal.org/user/3565617"
+                }
+            ],
+            "description": "Popup message for users.",
+            "homepage": "https://www.drupal.org/project/popup_message",
+            "support": {
+                "source": "https://git.drupalcode.org/project/popup_message",
+                "issues": "https://www.drupal.org/project/issues/popup_message"
+            },
+            "install-path": "../drupal/popup_message"
+        },
+        {
             "name": "egulias/email-validator",
             "version": "3.2.5",
             "version_normalized": "3.2.5.0",
@@ -832,17 +924,17 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.5.1",
-            "version_normalized": "7.5.1.0",
+            "version": "7.5.3",
+            "version_normalized": "7.5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b964ca597e86b752cd994f27293e9fa6b6a95ed9"
+                "reference": "584d1f06b5caa07b0587f5054d551ed65460ce5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b964ca597e86b752cd994f27293e9fa6b6a95ed9",
-                "reference": "b964ca597e86b752cd994f27293e9fa6b6a95ed9",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/584d1f06b5caa07b0587f5054d551ed65460ce5d",
+                "reference": "584d1f06b5caa07b0587f5054d551ed65460ce5d",
                 "shasum": ""
             },
             "require": {
@@ -868,15 +960,12 @@
                 "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
-            "time": "2023-04-17T16:30:08+00:00",
+            "time": "2023-05-15T20:42:18+00:00",
             "type": "library",
             "extra": {
                 "bamarni-bin": {
                     "bin-links": true,
                     "forward-command": false
-                },
-                "branch-alias": {
-                    "dev-master": "7.5-dev"
                 }
             },
             "installation-source": "dist",
@@ -943,7 +1032,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.5.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.5.3"
             },
             "funding": [
                 {
@@ -1238,6 +1327,67 @@
                 "source": "https://github.com/Masterminds/html5-php/tree/2.7.6"
             },
             "install-path": "../masterminds/html5"
+        },
+        {
+            "name": "mglaman/composer-drupal-lenient",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mglaman/composer-drupal-lenient.git",
+                "reference": "9d9271499d86ceb1431de80f876800fadf10a9e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mglaman/composer-drupal-lenient/zipball/9d9271499d86ceb1431de80f876800fadf10a9e1",
+                "reference": "9d9271499d86ceb1431de80f876800fadf10a9e1",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "composer/composer": "^2.3",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.6",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.2",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "time": "2023-03-21T19:06:37+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "ComposerDrupalLenient\\Plugin"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ComposerDrupalLenient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Glaman",
+                    "email": "nmd.matt@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/mglaman/composer-drupal-lenient/issues",
+                "source": "https://github.com/mglaman/composer-drupal-lenient/tree/1.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mglaman",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../mglaman/composer-drupal-lenient"
         },
         {
             "name": "pear/archive_tar",

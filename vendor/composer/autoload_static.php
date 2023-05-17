@@ -92,6 +92,7 @@ class ComposerStaticInit2532c9ee90b242d05d4e60494774aaf5
         'C' => 
         array (
             'Composer\\Semver\\' => 16,
+            'ComposerDrupalLenient\\' => 22,
         ),
         'A' => 
         array (
@@ -280,6 +281,10 @@ class ComposerStaticInit2532c9ee90b242d05d4e60494774aaf5
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'ComposerDrupalLenient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mglaman/composer-drupal-lenient/src',
         ),
         'Asm89\\Stack\\' => 
         array (

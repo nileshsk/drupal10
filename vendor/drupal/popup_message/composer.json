@@ -1,0 +1,12 @@
+{
+  "name": "drupal/popup_message",
+  "description": "Popup message for users.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/popup_message",
+  "support": {
+      "issues": "https://www.drupal.org/project/issues/popup_message",
+      "source": "https://git.drupalcode.org/project/popup_message"
+  },
+  "license": "GPL-2.0-or-later",
+  "require": {}
+}

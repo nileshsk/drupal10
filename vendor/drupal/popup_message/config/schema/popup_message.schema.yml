@@ -1,0 +1,50 @@
+popup_message.settings:
+  type: config_object
+  label: 'Popup Message settings'
+  mapping:
+    visibility_pages:
+      type: text
+      label: 'Visibility pages'
+    enable:
+      type: string
+      label: 'Enabled'
+    title:
+      type: string
+      label: 'Title'
+    body:
+      type: config_object
+      label: 'The popup body'
+      mapping:
+        value:
+          type: text
+          label: 'Value'
+        format:
+          type: string
+          label: 'Format'
+    height:
+      type: string
+      label: 'Height'
+    width:
+      type: string
+      label: 'Width'
+    check_cookie:
+      type: string
+      label: 'Check cookie'
+    expire:
+      type: string
+      label: 'Expire'
+    delay:
+      type: string
+      label: 'Delay'
+    close_delay:
+      type: string
+      label: 'Close delay'
+    cover_opacity:
+      type: string
+      label: 'Cover opacity'
+    style:
+      type: string
+      label: 'Style'
+    visibility:
+      type: string
+      label: 'Visibility'

@@ -57,6 +57,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/drupal/jsonapi_include" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/drupal/jsonapi_hypermedia" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mglaman/composer-drupal-lenient" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
